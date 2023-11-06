@@ -57,7 +57,7 @@ span{
     font-size: 50px;
     position: absolute;
     top: 200px;
-    left: 100px;
+    left: 90px;
 }
 .social h1{
     font-size: var(--h1-font);
@@ -66,7 +66,7 @@ span{
     line-height: 1.2;
     position: absolute;
     top: 300px;
-    left: 100px;
+    left: 90px;
 }
 .social h2{
     font-size: var(--h1-font);
@@ -75,7 +75,8 @@ span{
     line-height: 1.2;
     position: absolute;
     top: 450px;
-    left: 100px;
+    left: 90px;
+    font-size: 65px;
 }
 .btn{
     color: #fff;
@@ -318,6 +319,10 @@ h1{
     background-color: #13bbff;
     border-radius: 20px;
   }
+  #skills .cc{
+    position: absolute;
+    margin-top: 250px;
+  }
   /* mobile view */
  @media only screen and (max-width:450px) {
     #skills{
@@ -335,6 +340,11 @@ h1{
     width: 100%;
     height: 100vh;
   }
+  .education h1{
+    position: absolute;
+    margin-top: -30px;
+  }
+ 
   #education .edu-row{
     display: flex;
     justify-content: space-between;
@@ -520,11 +530,10 @@ h1{
   color: var(--main-color);
   font-size: 50px;
  }
-#testimonial h1{
-    left: 1px;
+#testimonial .heading{
+    margin-top: 1px;
 }
-.testimonial .card{
-  display: flex;
+.testimonial .card d-flex{
   margin-top: 0px;
 }
 .card img{
