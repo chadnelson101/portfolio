@@ -172,6 +172,60 @@ img::before{
         -webkit-transform: translateX(-2000px);
        }
 }
+@media screen and (max-width: 700px) {
+  .containera {
+    margin-left: 0; /* Remove the left margin */
+  }
+
+  .social h4 {
+    font-size: 20px;
+    top: 500px;
+    left: 100px;
+  }
+
+  .social h1 {
+    top: 100px;
+    left: 10px;
+  }
+
+  .social h2 {
+    top: 150px;
+    left: 10px;
+  }
+
+  .btn {
+    left: 10px;
+    top: 500px;
+  }
+
+  .container .icon {
+    font-size: 20px;
+    top: 200px;
+  }
+
+  .icons i {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    margin-right: 7px;
+    top: 200px;
+  }
+
+  .container img {
+    right: 10px;
+    top: 50px;
+  }
+
+  img::before {
+    width: 80px;
+    height: 60px;
+  }
+
+  .about-image img {
+    margin: 5px auto;
+    border: 2px solid #2c2f3f;
+  }
+}
 /* About */
 .about{
     padding: 70px 30px;
