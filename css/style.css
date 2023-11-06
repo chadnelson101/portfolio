@@ -138,9 +138,31 @@ img::before{
 .about-image:hover img{
     transform: scale(1.2);
 }
-h1{
+.social h4{
     animation-name: animate__bounceInLeft;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
+    
+}
+@keyframes animate__bounceInLeft{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+       }
+}
+.social h1{
+    animation-name: animate__bounceInLeft;
+    animation-duration: 3s;
+    
+}
+@keyframes animate__bounceInLeft{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+       }
+}
+.social h2{
+    animation-name: animate__bounceInLeft;
+    animation-duration: 4s;
     
 }
 @keyframes animate__bounceInLeft{
@@ -487,7 +509,7 @@ h1{
 }
 /* project section end */
 
-/* testimonila section start */
+/* testimonial section start */
 
 .testimonial{
   width: 100%;
@@ -499,7 +521,7 @@ h1{
   font-size: 50px;
  }
 #testimonial h1{
-    margin-left: 1px;
+    left: 1px;
 }
 .testimonial .card{
   display: flex;
