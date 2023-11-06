@@ -57,7 +57,7 @@ span{
     font-size: 50px;
     position: absolute;
     top: 200px;
-    left: 300px;
+    left: 100px;
 }
 .social h1{
     font-size: var(--h1-font);
@@ -66,7 +66,23 @@ span{
     line-height: 1.2;
     position: absolute;
     top: 300px;
-    left: 300px;
+    left: 100px;
+}
+.social h2{
+    font-size: var(--h1-font);
+    font-weight: 900;
+    margin: 20px 0px 20px;
+    line-height: 1.2;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+}
+.btn{
+    color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 section{
@@ -100,22 +116,15 @@ section{
 .container img{
     width: 500px;
     position: absolute;
-    right: 100px;
+    right: 90px;
     top: 200px;
     border-radius: 50%;
-    top: 100px;
+    top: 150px;
 }
 img::before{
     position: absolute;
     width: 180px;
     height: 140px;
-}
-.btn{
-    color: #fff;
-    position: absolute;
-    left: 300px;
-    top: 450px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .about-image img{
     max-width: 100%;
@@ -129,9 +138,31 @@ img::before{
 .about-image:hover img{
     transform: scale(1.2);
 }
-h1{
+.social h4{
     animation-name: animate__bounceInLeft;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
+    
+}
+@keyframes animate__bounceInLeft{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+       }
+}
+.social h1{
+    animation-name: animate__bounceInLeft;
+    animation-duration: 3s;
+    
+}
+@keyframes animate__bounceInLeft{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+       }
+}
+.social h2{
+    animation-name: animate__bounceInLeft;
+    animation-duration: 4s;
     
 }
 @keyframes animate__bounceInLeft{
@@ -251,6 +282,9 @@ h1{
   }
   #skills h1{
     margin-top: 50px;
+  }
+  .flex-box h4{
+    margin-top: 60px;
   }
   #skills{
     width: 100%;
@@ -475,7 +509,7 @@ h1{
 }
 /* project section end */
 
-/* testimonila section start */
+/* testimonial section start */
 
 .testimonial{
   width: 100%;
@@ -485,7 +519,9 @@ h1{
  .heading{
   color: var(--main-color);
   font-size: 50px;
-  margin-left: 1px;
+ }
+#testimonial h1{
+    left: 1px;
 }
 .testimonial .card{
   display: flex;
